@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Dockerized Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 1rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    footer {
+      background-color: #eee;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Static Docker Website</h1>
+  </header>
+  <section>
+    <p>This is a simple static website served using <strong>Nginx</strong> in a <strong>Docker container</strong>.</p>
+    <p>This project demonstrates how to containerize and deploy a simple static website using Docker and
+     Nginx. A basic HTML page (index.html) is served through an Nginx server running inside a lightweight Docker container. The Dockerfile defines the image build process, which uses the official nginx:alpine base image and copies the static content into the default web directory. This setup is ideal for understanding the basics of Docker image creation, container lifecycle, and how web servers like Nginx can be used to serve static content efficiently. It forms a foundational DevOps project that introduces containerization and web hosting in a practical, hands-on way.
+    </p>
+  </section>
+  <footer>
+    &copy; 2025 My Docker Website | Built with 💙 using Docker and Nginx
+  </footer>
+</body>
+</html>
