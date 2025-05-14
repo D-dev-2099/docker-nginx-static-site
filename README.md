@@ -34,6 +34,7 @@ docker build -t static-nginx .
 docker run -d -p 8080:80 static-nginx
 Now open your browser and go to:
 👉 http://localhost:8080
+
 🛠️ Key Concepts Covered
 
     Dockerfile basics
